@@ -22,5 +22,5 @@ st.header("소감")
 
 if st.button("확인"):
     st.markdown(f"{이름}/{학년}학년/{반}반/{난이도}")
-    st.markdown(f"점수: {점수}")
-    st.markdown(f"소감: {소감}") # 수정: 중복된 중괄호 삭제
+    st.success(f"점수: {점수}")
+    st.error(f"소감: {소감}") # 수정: 중복된 중괄호 삭제
